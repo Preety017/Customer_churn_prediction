@@ -18,6 +18,7 @@ This project demonstrates how to build a customer churn prediction model using t
 
 3. **Making Predictions:**
    - A function `return_prediction` takes a trained model and sample input.
+     
 4. ## Usage
 
 1. Clone the repository: git clone https://github.com/Preety017/Customer_churn_prediction.git 
@@ -38,7 +39,6 @@ rf_input = {
  'Monthly_Bill': 73.36,
  'Total_Usage_GB': 236
 }
-
 # Make a prediction using the loaded model and sample input
 prediction = return_prediction(rf_Model, rf_input)
 print("Predicted Class:", prediction)
